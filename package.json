@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+  ,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.ts",
+    "dev": "nodemon ./back-end/src/server.ts",
+    "serve": "vue-cli-service serve  --open --prefix /front-end/",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint"
+  }
+}
